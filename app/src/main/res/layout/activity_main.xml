@@ -22,22 +22,26 @@
         android:layout_marginTop="0dp"
         android:gravity="center"
         android:textColor="#292d73"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:layout_weight="0.62" />
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="331dp"
         android:layout_height="wrap_content"
         android:id="@+id/welcomeImageView"
         android:src="@drawable/occpirate"
-        android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/occpirate" />
+        android:contentDescription="@string/occpirate"
+        android:layout_gravity="center"
+        android:layout_weight="0.12" />
 
     <Button
-        android:layout_width="184dp"
-        android:layout_height="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/button_text"
-        android:id="@+id/welcomeButton"
+        android:id="@+id/speakButton"
         android:textColor="@color/abc_input_method_navigation_guard"
         android:textSize="12sp"
-        android:clickable="true" />
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
